@@ -1,1 +1,378 @@
-<h1>rania portflio</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rania Bouabid · Backend & AI Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+        content="Rania Bouabid – 4th year engineering student at UVSQ / Paris-Saclay. Backend, security, distributed systems and AI / computer vision." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAV + HERO -->
+  <header class="hero" id="top">
+    <nav class="nav">
+      <div class="nav-left">
+        <span class="logo">RB.</span>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+      <div class="nav-links">
+        <a href="#journey">Journey</a>
+        <a href="#tech">Tech stack</a>
+        <a href="#projects">Projects</a>
+        <a href="#stats">Stats</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="hero-inner">
+      <div class="hero-main">
+        <p class="hero-pill">UVSQ / Paris-Saclay · IATIC4 · Software & AI Engineering</p>
+        <h1>Hey, I'm <span class="accent">Rania Bouabid</span></h1>
+        <p class="hero-typing">
+          <span id="typing-text"></span><span class="cursor">|</span>
+        </p>
+        <p class="hero-sub">
+          Paris, Île-de-France ⇄ Fès · backend dev obsessed with security, distributed systems, and
+          computer vision that runs in real life, not just in notebooks.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View my projects</a>
+          <a class="btn ghost" href="#contact">Let’s work together</a>
+        </div>
+
+        <div class="hero-badges">
+          <span>Backend</span>
+          <span>Spring Boot & .NET</span>
+          <span>AI & Computer Vision</span>
+          <span>Docker & RabbitMQ</span>
+        </div>
+      </div>
+
+      <div class="hero-side">
+        <div class="hero-card">
+          <p class="hero-card-title">Current status</p>
+          <p class="hero-card-body">
+            4<sup>th</sup>-year computer engineering student at
+            <strong>UVSQ / Université Paris-Saclay (IATIC)</strong>.
+          </p>
+        </div>
+        <div class="hero-card">
+          <p class="hero-card-title">Origin story</p>
+          <p class="hero-card-body">
+            Maths & physics at <strong>Faculté des Sciences et Techniques</strong> → scholarship to
+            <strong>UPF</strong> → now building backend & AI systems between
+            <strong>France</strong> and <strong>Morocco</strong>.
+          </p>
+        </div>
+        <div class="hero-links">
+          <a class="icon-link" href="https://github.com/Raniaabouabid1" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="icon-link" href="https://www.linkedin.com/in/rania-bouabid" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="icon-link" href="mailto:raniabouabid7@gmail.com">Email</a>
+          <a class="icon-link" href="#stats">GitHub stats</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-wave"></div>
+  </header>
+
+  <main>
+    <!-- JOURNEY -->
+    <section id="journey" class="section">
+      <div class="section-header">
+        <h2>My journey so far</h2>
+        <p>From equations to production systems.</p>
+      </div>
+      <div class="grid two">
+        <div>
+          <p>
+            I started with <strong>pure maths & physics</strong> at
+            <em>Faculté des Sciences et Techniques in Fès</em> because I loved solving problems
+            that look impossible at first sight.
+          </p>
+          <p>
+            That led to a <strong>scholarship at UPF</strong>, where I dove head-first into
+            <strong>computer engineering</strong> and realized I liked designing systems as much as
+            solving equations.
+          </p>
+          <p>
+            Today I'm a <strong>4<sup>th</sup>-year IATIC student at UVSQ / Université
+            Paris-Saclay</strong>, living between France and Morocco, and building software that has
+            to work in the real world.
+          </p>
+        </div>
+        <div>
+          <p>
+            I enjoy taking vague requirements and messy constraints and turning them into
+            <strong>clean architectures</strong>, <strong>secure APIs</strong> and
+            <strong>dashboards people actually like using</strong>.
+          </p>
+          <p>
+            My current obsessions:
+          </p>
+          <ul class="bullet-list">
+            <li>Backend architectures that are still readable 6 months later</li>
+            <li>Real-time computer vision pipelines for stadium surveillance</li>
+            <li>Event-driven systems with proper error handling (no more silent failures)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section id="tech" class="section section-alt">
+      <div class="section-header">
+        <h2>Tech stack</h2>
+        <p>What I actually ship things with.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages & frameworks</h3>
+          <p class="skill-tags">
+            Java · Spring Boot · Spring Security · .NET · C# · Python · TypeScript · Angular
+          </p>
+          <p>
+            I build <strong>secure backends</strong> with Spring Boot & .NET, using JWT, layered
+            architectures (DTOs, mappers, services, controllers) and clear error contracts.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <h3>AI & computer vision</h3>
+          <p class="skill-tags">
+            PyTorch · TensorFlow · Keras · YOLOv8 · OpenCV · scikit-learn
+          </p>
+          <p>
+            I train and fine-tune models for <strong>real-time video analysis</strong> and
+            integrate them into systems that need to run 24/7, not only in Jupyter.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Data, infra & messaging</h3>
+          <p class="skill-tags">
+            MongoDB · MySQL · PostgreSQL · Redis · Docker · RabbitMQ · Linux
+          </p>
+          <p>
+            From dynamic schemas on MongoDB to relational models in SQL, plus containers and queues
+            to glue everything together.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Tools & workflow</h3>
+          <p class="skill-tags">
+            Git · GitHub · Postman · VS Code · IntelliJ · CI mindset
+          </p>
+          <p>
+            I like reproducible environments, documented APIs and a clear separation between dev,
+            staging and “we-really-should-not-break-this” environments.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-header">
+        <h2>Projects that actually ship</h2>
+        <p>Real systems, with real users and real constraints.</p>
+      </div>
+
+      <div class="grid three project-grid">
+        <article class="project-card">
+          <p class="project-eyebrow">Network projects · Telecom</p>
+          <h3>Huawei Tracker</h3>
+          <p>
+            Internal project tracking system for telecom network rollouts for the IAM NPM team at
+            Huawei. Handles hundreds of projects with different teams and access levels.
+          </p>
+          <ul>
+            <li>Spring Boot · Angular · MongoDB · JWT · Docker</li>
+            <li>Role-based access control & multi-level permissions</li>
+            <li>Progress tracking, automated reporting & dashboards</li>
+          </ul>
+          <p class="project-note">
+            The interesting part: designing flexible data models and access rules that match how
+            people actually work, not just the ideal spec.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <p class="project-eyebrow">Computer vision · Security</p>
+          <h3>Stadium Violence Detection System</h3>
+          <p>
+            Real-time CCTV analysis that spots violent behaviours in football stadiums and triggers
+            alerts before things escalate.
+          </p>
+          <ul>
+            <li>Python · YOLOv8 · LSTM · RabbitMQ · Docker</li>
+            <li>Angular dashboard & Spring Boot backend</li>
+            <li>Designed for low latency across multiple camera feeds</li>
+          </ul>
+          <p class="project-note">
+            Lesson learned: production ML is 20% training models and 80% handling edge cases,
+            latency and weird data.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <p class="project-eyebrow">Reporting · Data modeling</p>
+          <h3>Dynamic Reporting Platform</h3>
+          <p>
+            A flexible reporting system where admins define report templates and sheets, and users
+            generate complex reports without schema migrations.
+          </p>
+          <ul>
+            <li>Spring Boot · MongoDB</li>
+            <li>Embedded templates & dynamic sheet structures</li>
+            <li>Designed around how real project teams report</li>
+          </ul>
+          <p class="project-note">
+            Built to explore how far we can push flexibility while keeping queries fast and code
+            maintainable.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section id="stats" class="section section-alt">
+      <div class="section-header">
+        <h2>GitHub stats & activity</h2>
+        <p>A bit of what happens behind the scenes.</p>
+      </div>
+
+      <div class="stats-grid">
+        <img
+          src="https://github-readme-activity-graph.vercel.app/graph?username=Raniaabouabid1&bg_color=050816&color=00d9ff&line=ff2d55&point=ffffff&area=true&hide_border=true"
+          alt="GitHub activity graph"
+          loading="lazy"
+        />
+
+        <div class="stats-row">
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=Raniaabouabid1&show_icons=true&theme=radical&hide_border=true&bg_color=050816&title_color=00D9FF&icon_color=FF2D55&text_color=FFFFFF&include_all_commits=true&count_private=true"
+            alt="GitHub stats"
+            loading="lazy"
+          />
+          <img
+            src="https://github-readme-streak-stats.herokuapp.com/?user=Raniaabouabid1&theme=radical&hide_border=true&background=050816&ring=00D9FF&fire=FF2D55&currStreakLabel=00D9FF&sideLabels=FFFFFF"
+            alt="GitHub streak"
+            loading="lazy"
+          />
+        </div>
+
+        <img
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raniaabouabid1&layout=compact&theme=radical&hide_border=true&bg_color=050816&title_color=00D9FF&text_color=FFFFFF&langs_count=8"
+          alt="Top languages"
+          loading="lazy"
+        />
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-header">
+        <h2>Let’s build something</h2>
+        <p>Always happy to talk about serious projects, wild ideas or career paths.</p>
+      </div>
+
+      <div class="grid two">
+        <div>
+          <p>
+            Got a project that needs a backend that won’t collapse in production? An AI idea you’d
+            like to prototype? Or just want to talk about tech, engineering studies between two
+            countries, or how to survive Spring Security?
+          </p>
+          <p>
+            I’m open to <strong>internships</strong>, <strong>collaborations</strong> and
+            <strong>side projects</strong> that touch backend, security, distributed systems or
+            AI / computer vision.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary wide" href="mailto:raniabouabid7@gmail.com">
+            Email me: raniabouabid7@gmail.com
+          </a>
+          <a class="btn ghost wide" href="https://www.linkedin.com/in/rania-bouabid" target="_blank" rel="noreferrer">
+            Connect on LinkedIn
+          </a>
+          <a class="btn ghost wide" href="https://github.com/Raniaabouabid1" target="_blank" rel="noreferrer">
+            Check my GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Made with ☕ and chaotic good energy by Rania Bouabid.</p>
+    <p><a href="#top">Back to top ↑</a></p>
+  </footer>
+
+  <script>
+    // Simple typing effect for hero
+    const phrases = [
+      "4th year engineering student at UVSQ / Paris\u2011Saclay",
+      "Backend dev obsessed with security & distributed systems",
+      "Working on real-time computer vision for stadium safety",
+      "Building real stuff, not just hello worlds"
+    ];
+
+    const typingElement = document.getElementById("typing-text");
+    const cursor = document.querySelector(".cursor");
+    let phraseIndex = 0;
+    let charIndex = 0;
+    let deleting = false;
+
+    function type() {
+      const current = phrases[phraseIndex];
+
+      if (!deleting) {
+        typingElement.textContent = current.substring(0, charIndex + 1);
+        charIndex++;
+
+        if (charIndex === current.length) {
+          deleting = true;
+          setTimeout(type, 1700);
+          return;
+        }
+      } else {
+        typingElement.textContent = current.substring(0, charIndex - 1);
+        charIndex--;
+
+        if (charIndex === 0) {
+          deleting = false;
+          phraseIndex = (phraseIndex + 1) % phrases.length;
+        }
+      }
+
+      const speed = deleting ? 45 : 70;
+      setTimeout(type, speed);
+    }
+
+    if (typingElement) {
+      type();
+      setInterval(() => cursor.classList.toggle("hidden"), 500);
+    }
+
+    // mobile nav toggle
+    const navToggle = document.querySelector(".nav-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    navToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("open");
+    });
+  </script>
+</body>
+</html>
